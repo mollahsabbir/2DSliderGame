@@ -1,12 +1,14 @@
 # 2DSliderGame
 It's a 2d Slider Puzzle Game for the Terminal/CMD designed in C language.
 
-Gameplay:
+![Screenshot](screenshot.png?raw=true "2D Slider Game")
+
+# Gameplay
 Numbers (1 to 15) are shown randomly on a 4*4 grid. The objective of the game is to rearrange the numbers in ascending order (1,2,3...).
 You have to use W/A/S/D to move the blank place along the grid. 
 
 
-Code: 
+# Code
 
 The structure "Blocks" will hold x,y coordinates and value of each position of the grid (16). 
 At the start of the program, an array num[15] is declared. 
@@ -23,6 +25,9 @@ gameplay() : This function takes the inputs (W/A/S/D) and then Swaps the blank s
 swaps. The player is inside this function until win() function retuns as true.
 
 The visuals are updated by the display() function.
+
+# Usage
+gcc -o "2D Slider Game" "2D Slider Game.c"
 
 
 
